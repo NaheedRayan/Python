@@ -1,2 +1,2 @@
 # Python
-Things to learn for python
+Some advance and basic topics will be in this dir
