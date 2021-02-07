@@ -36,8 +36,7 @@ sentence = f'My name is {first_name} {last_name}'
 print(sentence)
 ```
 
-> output:
-<br>
+> output:<br>
 My name is Naheed Rayan
 
 <br>
@@ -51,8 +50,7 @@ sentence = f'My name is {first_name.upper()} {last_name.upper()}'
 print(sentence)
 ```
 
-> output:
-<br>
+> output:<br>
 My name is NAHEED RAYAN
 
 <br>
@@ -65,8 +63,7 @@ person = {'name' : 'Naheed' , 'age': 23}
 
 sentence = f"My name is {person['name']} and I am {person['age']} years old."
 ```
->output:
-<br>
+>output:<br>
 My name is Naheed and I am 23 years old.
 
 <br>
@@ -76,8 +73,7 @@ We can also do calculation.
 print(f"4 times 11 is {4*11}") 
 ```
 
->output:
-<br>
+>output:<br>
 4 times 11 is 44
 
 <br>
@@ -145,9 +141,9 @@ The number is 10
 
 ## ``How to add decimal places in a float in Python f-strings (Formatting a float)?``
 
-```
+
 We can define the fixed number of digits after decimal in a float using fstrings by adding {variable:.Nf}, where N stands for total number of decimal places. This doesn’t just strip off the rest of the decimal points, but round it properly.
-```
+
 
 ```cmd
 >>> from math import pi
@@ -160,9 +156,9 @@ The value of pi is 3.1416
 
 
 ## ``How to format dates in Python f-strings?``
-```
+
 We can also format the dates in Python f-string by using datetime module and adding the desired format in curly braces {date:directive}.You can find more directives (i.e. %A, etc.) from official page of datetime module.:-
-```
+
 
 ```cmd
 >>> import datetime
@@ -178,9 +174,8 @@ We can also format the dates in Python f-string by using datetime module and add
 
 ## ``How to add space padding in Python f-strings?``
 
-```
 You can add spaces (padding) to a string in Python f strings by adding {variable:N} where N is total length. If the variable is 1 and N is 4, it will add three spaces before 1, hence making the total length 4.
-```
+
 ```cmd
 >>> for n in range(1,11):
 ...     print(f'The number is {n:4}')
@@ -200,9 +195,9 @@ The number is   10
 <br>
 
 ## ``How to justify a string in Python f-strings?``
-```
+
 We can justify a string in Python f-strings using {variable:>N} where N is the total length.
-```
+
 
 ```cmd
 s1 = 'Python'
