@@ -116,9 +116,9 @@ We can also print raw f-strings by using {variable!r}
 # **Different types of padding**
 
 ## ``How to pad string with zero in Python f-strings (0-Padding)?``
-```
+
 We can pad a string with zeros (0-Padding) in Python f-strings by adding {variable:0N} inside the braces, where N stands for total number of digits-
-```
+
 
 ```cmd
 >>> for n in range(1,11):
