@@ -22,8 +22,7 @@ sentence = 'My name is {} {}'.format(first_name , last_name)
 print(sentence)
 ```
 
-> output:
-<br>
+> output:<br>
 My name is Naheed Rayan
 
 <br>
